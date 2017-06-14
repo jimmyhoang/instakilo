@@ -14,6 +14,7 @@
 		FF1758431EF1A29E0048B88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1758421EF1A29E0048B88C /* Assets.xcassets */; };
 		FF1758461EF1A29E0048B88C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1758441EF1A29E0048B88C /* LaunchScreen.storyboard */; };
 		FF1758511EF1A29E0048B88C /* InstaKiloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1758501EF1A29E0048B88C /* InstaKiloTests.m */; };
+		FF17585D1EF1A4910048B88C /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF17585C1EF1A4910048B88C /* PhotoCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FF17584C1EF1A29E0048B88C /* InstaKiloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaKiloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1758501EF1A29E0048B88C /* InstaKiloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaKiloTests.m; sourceTree = "<group>"; };
 		FF1758521EF1A29E0048B88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF17585B1EF1A4910048B88C /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		FF17585C1EF1A4910048B88C /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +88,9 @@
 				FF17583A1EF1A29E0048B88C /* AppDelegate.m */,
 				FF17583C1EF1A29E0048B88C /* ViewController.h */,
 				FF17583D1EF1A29E0048B88C /* ViewController.m */,
+				FF17585B1EF1A4910048B88C /* PhotoCollectionViewCell.h */,
+				FF17585C1EF1A4910048B88C /* PhotoCollectionViewCell.m */,
 				FF17583F1EF1A29E0048B88C /* Main.storyboard */,
-				FF1758421EF1A29E0048B88C /* Assets.xcassets */,
-				FF1758441EF1A29E0048B88C /* LaunchScreen.storyboard */,
-				FF1758471EF1A29E0048B88C /* Info.plist */,
 				FF1758361EF1A29E0048B88C /* Supporting Files */,
 			);
 			path = InstaKilo;
@@ -97,6 +99,9 @@
 		FF1758361EF1A29E0048B88C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF1758421EF1A29E0048B88C /* Assets.xcassets */,
+				FF1758441EF1A29E0048B88C /* LaunchScreen.storyboard */,
+				FF1758471EF1A29E0048B88C /* Info.plist */,
 				FF1758371EF1A29E0048B88C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF17583E1EF1A29E0048B88C /* ViewController.m in Sources */,
+				FF17585D1EF1A4910048B88C /* PhotoCollectionViewCell.m in Sources */,
 				FF17583B1EF1A29E0048B88C /* AppDelegate.m in Sources */,
 				FF1758381EF1A29E0048B88C /* main.m in Sources */,
 			);
