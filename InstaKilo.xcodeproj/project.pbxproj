@@ -15,6 +15,8 @@
 		FF1758461EF1A29E0048B88C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1758441EF1A29E0048B88C /* LaunchScreen.storyboard */; };
 		FF1758511EF1A29E0048B88C /* InstaKiloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1758501EF1A29E0048B88C /* InstaKiloTests.m */; };
 		FF17585D1EF1A4910048B88C /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF17585C1EF1A4910048B88C /* PhotoCollectionViewCell.m */; };
+		FF1758631EF1ACBB0048B88C /* SubjectCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1758621EF1ACBB0048B88C /* SubjectCollectionHeaderView.m */; };
+		FF1758661EF1B1480048B88C /* Photos.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1758651EF1B1480048B88C /* Photos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		FF1758521EF1A29E0048B88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF17585B1EF1A4910048B88C /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		FF17585C1EF1A4910048B88C /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		FF1758611EF1ACBB0048B88C /* SubjectCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectCollectionHeaderView.h; sourceTree = "<group>"; };
+		FF1758621EF1ACBB0048B88C /* SubjectCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectCollectionHeaderView.m; sourceTree = "<group>"; };
+		FF1758641EF1B1480048B88C /* Photos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photos.h; sourceTree = "<group>"; };
+		FF1758651EF1B1480048B88C /* Photos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photos.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +92,14 @@
 			children = (
 				FF1758391EF1A29E0048B88C /* AppDelegate.h */,
 				FF17583A1EF1A29E0048B88C /* AppDelegate.m */,
+				FF1758641EF1B1480048B88C /* Photos.h */,
+				FF1758651EF1B1480048B88C /* Photos.m */,
 				FF17583C1EF1A29E0048B88C /* ViewController.h */,
 				FF17583D1EF1A29E0048B88C /* ViewController.m */,
 				FF17585B1EF1A4910048B88C /* PhotoCollectionViewCell.h */,
 				FF17585C1EF1A4910048B88C /* PhotoCollectionViewCell.m */,
+				FF1758611EF1ACBB0048B88C /* SubjectCollectionHeaderView.h */,
+				FF1758621EF1ACBB0048B88C /* SubjectCollectionHeaderView.m */,
 				FF17583F1EF1A29E0048B88C /* Main.storyboard */,
 				FF1758361EF1A29E0048B88C /* Supporting Files */,
 			);
@@ -223,6 +233,8 @@
 				FF17583E1EF1A29E0048B88C /* ViewController.m in Sources */,
 				FF17585D1EF1A4910048B88C /* PhotoCollectionViewCell.m in Sources */,
 				FF17583B1EF1A29E0048B88C /* AppDelegate.m in Sources */,
+				FF1758631EF1ACBB0048B88C /* SubjectCollectionHeaderView.m in Sources */,
+				FF1758661EF1B1480048B88C /* Photos.m in Sources */,
 				FF1758381EF1A29E0048B88C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
